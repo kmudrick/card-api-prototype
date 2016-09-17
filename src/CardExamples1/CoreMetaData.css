@@ -1,0 +1,46 @@
+
+.coremetadata { /* this is not a suggestion for the base class name of a card */
+  /* the base container should be 100% of its container
+   * and have no margin or padding. border is 👍.
+   */
+  width: 100%;
+  border: 1px solid #c2c2c2;
+  background-color: white;
+}
+
+.coremetadata-header {
+  display: flex;
+  justify-content: space-between; /* ...the wicked lies 🎵 */
+  align-items: center;
+  padding: 0 50px;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.coremetadata-updated-by {
+  font-size: .8rem;
+  font-weight: normal;
+  padding: 0;
+}
+
+.coremetadata-title {
+  padding: 0;
+  font-size: 1rem;
+}
+
+.coremetadata-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 50px;
+  font-size: .8rem;
+}
+
+.coremetadata-row {
+  text-align: left;
+}
+
+.coremetadata-row-label {
+  color: #c2c2c2;
+  width: 250px;
+  display: inline-flex;
+}
